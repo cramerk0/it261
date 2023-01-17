@@ -1,0 +1,206 @@
+/* Portal Index PHP Stylesheet */
+
+:root {
+    --background: #B2CACC;
+    --color: #6C9499;
+    --accent: #94D3C0;
+    --link: #30444A;
+    --link-hover: #D7DDE0;
+    --text :#204152;
+    --luma-accent: #78280D;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* GENERAL */
+
+a {
+  text-decoration: none;
+  color: var(--link);  
+  transition: all 0.3s;
+}
+
+a:hover {
+    color: var(--link-hover);
+}
+
+body {
+    font-family: 'ABeeZee', sans-serif;
+    color: var(--text);
+    background: var(--background);
+    line-height: 180%;
+    word-wrap: break-word;
+    overflow-x: hidden;
+}
+
+nav {
+    margin: 20px auto 20px auto;
+}
+
+#wrapper {
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+main {
+    width: 57%;
+    float: left;
+    background: var(--color);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+aside {
+    width: 41%;
+    float: right;
+    background: var(--color);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+aside li {
+    list-style-type: "-> ";
+    margin-left: 15px;
+    color: var(--luma-accent);
+}
+
+footer {
+    clear: both;
+    font-size: .9em;
+    background: var(--color);
+    height: 50px;
+    line-height: 50px;
+}
+
+footer ul {
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+footer li {
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+
+/* PRIMARY NAVIGATION */
+
+#primary-nav {
+    height: 50px;
+    line-height: 50px;
+    text-decoration: none;
+    background: var(--color);
+}
+
+#primary-nav ul {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#primary-nav li {
+    width: 16.66%;
+    float: left;
+    list-style-type: none;
+    text-align: center;
+}
+
+#primary-nav a {
+    text-decoration: none;
+    display: block;
+}
+
+#primary-nav a:hover {
+    background: var(--link-hover);
+    color: var(--text);
+    /* border-bottom: 1px solid var(--text); */
+}
+
+
+/* SIDEBAR */
+
+.sidebar {
+    position: fixed;
+    height: 100%;
+    width: 80px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    padding: 20px 0 10px 0;
+    background-color: var(--color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sidebar #line {
+    background: var(--luma-accent);
+    display: block;
+    width: 6px;
+    height: 80%;
+    margin: 5px auto 10px auto;
+}
+
+#btop {
+    color: var(--text);
+}
+
+svg:hover {
+    color: var(--link-hover);
+    transform: rotate(360deg);
+    transition: all .75s;
+}
+
+
+/* BEAUTIFIERS */
+
+#description {
+    background: rgba(178, 202, 204, .3);
+    padding: 0 20px 0 20px;
+}
+
+#class-stuff {
+    background: rgba(178, 202, 204, .3);
+    padding: 20px 20px 20px 20px;
+}
+
+
+/* TYPOGRAPHY */
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+p {
+    margin: 20px auto 20px auto;
+}
+
+
+/* IMAGES */
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+main img {
+    border: 1px solid black;
+}
