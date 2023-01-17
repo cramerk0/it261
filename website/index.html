@@ -1,53 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
     
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Home Page</title>
-        
-        <link href="css/styles.css" type="text/css" rel="stylesheet">
-    </head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap" rel="stylesheet">     
 
-    <body>
+    <link href="css/styles.css" type="text/css" rel="stylesheet">
+</head>
 
-        <header>
-        
-            <div class="inner-header">
+<body>
+    
+    <header>
+        <a href="../index.php">
+            <img src="images/Edme Logo.png" alt=" Edme logo">
+        </a>
 
-                <a href="index.html">
-                    <img id="logo" src="images/Edme Logo.png" alt=" Edme logo">
-                </a>
+        <nav id="primary-nav">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Daily</a></li>
+                <li><a href="">Project</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
 
-                <nav>
-                    <ul>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">About</a></li>
-                        <li><a href="">Daily</a></li>
-                        <li><a href="">Project</a></li>
-                        <li><a href="">Contact</a></li>
-                        <li><a href="">Gallery</a></li>
-                    </ul>
-                </nav>
+    <div id="wrapper">
 
-            <!-- end inner-header -->
-            </div>
+        <div id="hero"> 
+        <!-- why hero? -->
 
-        </header>
+        <img src="images/Mari art flower.png" alt="Mari">
 
-        <div id="wrapper">
+        <!-- end hero -->
+        </div>
 
-            <div id="hero"> 
-            <!-- why hero? -->
-
-            <img src="images/Mari art flower.png" alt="Mari">
-
-            <!-- end hero -->
-            </div>
-
-            <main>
-
+        <main>
+            <div id="info">
                 <h1>Web Authoring II</h1>
                 <h2>Starting off with bare minimum knowledge let's gooo</h2>
                 <p>
@@ -59,37 +55,40 @@
                     Etiam dolor lectus, sagittis non dui nec, feugiat luctus purus. Nullam nunc elit, convallis sit amet sem pretium, lobortis sodales tellus. In semper elementum ultricies. Donec quis diam hendrerit, ultricies est vel, varius mi. In hac habitasse platea dictumst. Nam in felis non turpis interdum dignissim sed eget leo. Vestibulum ultricies tempus blandit. Praesent bibendum leo non eleifend laoreet.
                 </p>
 
-            </main>
+            <!-- end info -->
+            </div>
+        </main>
 
-            <aside>
-
+        <aside>
+            <div id="other-stuff">
                 <h3>Headline 3</h3>
                 <p>
                     Etiam dolor lectus, sagittis non dui nec, feugiat luctus purus. Nullam nunc elit, convallis sit amet sem pretium, lobortis sodales tellus. In semper elementum ultricies. Donec quis diam hendrerit, ultricies est vel, varius mi. In hac habitasse platea dictumst. Nam in felis non turpis interdum dignissim sed eget leo. Vestibulum ultricies tempus blandit. Praesent bibendum leo non eleifend laoreet.
                 </p>
-            </aside>
+                <!-- end other-stuff -->
+            </div>
+        </aside>
 
-        <!-- end wrapper -->
-        </div>
+    <!-- end wrapper -->
+    </div>
 
-        <footer>
-            <ul>
-                <li>Copyright &copy;
-                    2022</li>
-                <li>All Rights Reserved</li>
-                <li><a href="../index.php">Web Design by Xiaoyan</a></li>
-                <li><a id="html-checker" href="#">HTML Validation</a></li>
-                <li><a id="css-checker" href="#">CSS Validation</a></li>
-                </ul>
+    <footer>
+        <ul>
+            <li>Copyright &copy;2023</li>
+            <li>All Rights Reserved</li>
+            <li><a href="../index.php">Web Design by Xiaoyan</a></li>
+            <li><a id="html-checker" href="#">HTML Validation</a></li>
+            <li><a id="css-checker" href="#">CSS Validation</a></li>
+        </ul>
 
-            <script>
-                document.getElementById("html-checker").setAttribute("href","https://validator.w3.org/nu/?doc=" + location.href);
-                document.getElementById("css-checker").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
-            </script>
-        </footer>
+        <script>
+            document.getElementById("html-checker").setAttribute("href","https://validator.w3.org/nu/?doc=" + location.href);
+            document.getElementById("css-checker").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+        </script>
+    </footer>
 
+    
         
-            
-    </body>
+</body>
 </html>
 
