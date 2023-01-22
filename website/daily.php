@@ -68,6 +68,16 @@ switch($today) {
         break;
 }
 
+$nav = [
+    'daily.php?today=Monday' => 'Monday',
+    'daily.php?today=Tuesday' => 'Tuesday',
+    'daily.php?today=Wednesday' => 'Wednesday',
+    'daily.php?today=Thursday' => 'Thursday',
+    'daily.php?today=Friday' => 'Friday',
+    'daily.php?today=Saturday' => 'Saturday',
+    'daily.php?today=Sunday' => 'Sunday'
+];
+
 ?>
 
 <body>
@@ -88,16 +98,19 @@ switch($today) {
 
         <aside>
             <div id="other-stuff">
-                <h2>Check out our Daily Specials</h2>
+                <h2>Check out our other days</h2>
                     <ul class="list">
-                        <li><a href="daily.php?today=Monday">Monday</a></li>
-                        <li><a href="daily.php?today=Tuesday">Tuesday</a></li>
-                        <li><a href="daily.php?today=Wednesday">Wednesday</a></li>
-                        <li><a href="daily.php?today=Thursday">Thursday</a></li>
-                        <li><a href="daily.php?today=Friday">Friday</a></li>
-                        <li><a href="daily.php?today=Saturday">Saturday</a></li>
-                        <li><a href="daily.php?today=Sunday">Sunday</a></li>
-                    </ul>
+                    <?php
+                        foreach($nav as $key => $value) {
+                            if($today == $value) {
+                                echo '<li><a style="color: #94D3C0"; href="'.$key.'">'.$value.'</a></li>';
+                            }
+                            else {
+                                echo '<li><a style="color: #204152"; href="'.$key.'">'.$value.'</a></li>';
+                            }
+                        }
+                    ?>
+            </ul>
                 <!-- end other-stuff -->
             </div>
         </aside>
