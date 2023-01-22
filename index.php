@@ -21,7 +21,7 @@
     <div class="sidebar">
         <a href="index.php">
             <!-- BIG ASS IMAGE LMAO -->
-            <img src="images/Edme Logo.png" alt="logo">
+            <img src="images/Edme_Logo.png" alt="logo">
         </a>
         
         <div id="line"></div>
@@ -29,7 +29,7 @@
 <!-- i just wanted an arrow so badly man :weary-emoji: -->
         <div class="btop">
             <a href="index.php">
-                <svg xmlns="https://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="arrow-up">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="arrow-up">
                     <line x1="12" y1="19" x2="12" y2="5"></line>
                     <polyline points="5 12 12 5 19 12"></polyline>
                 </svg>
@@ -43,9 +43,7 @@
     <div id="wrapper">
 
         <header>
-            <div id="title">
-                <h1>Xiaoyan's Portal Page</h1>
-            </div>
+            <h1>Xiaoyan's Portal Page</h1>
 
                 <nav id="primary-nav">           
                     <ul>
@@ -96,49 +94,49 @@
     
             <h3>Week 3</h3>
             <ul>
-                <li><a href="weeks/weeks-3/if.php">if.php</a></li>
-                <li><a href="weeks/weeks-3/date.php">date.php</a></li>
-                <li><a href="weeks/weeks-3/forloop.php">forloop.php</a></li>
-                <li><a href="weeks/weeks-3/foreach.php">foreach.php</a></li>
-                <li><a href="weeks/weeks-3/switch.php">switch.php</a></li>
+                <li><a href="weeks/week-3/if.php">if.php</a></li>
+                <li><a href="weeks/week-3/date.php">date.php</a></li>
+                <li><a href="weeks/week-3/for-each.php">for-each.php</a></li>
+                <li><a href="weeks/week-3/forloop.php">forloop.php</a></li>
+                <li><a href="weeks/week-3/switch.php">switch.php</a></li>
             </ul>
 
             <h3>Week 4</h3>
             <ul>
-                <li><a href="weeks/weeks-4/form-get.php">form-get.php</a></li>
-                <li><a href="weeks/weeks-4/form1.php">form1.php</a></li>
-                <li><a href="weeks/weeks-4/form2.php">form2.php</a></li>
-                <li><a href="weeks/weeks-4/form3.php">form3.php</a></li>
-                <li><a href="weeks/weeks-4/form-arithmetic.php">form-arithmetic.php</a></li>
-                <li><a href="weeks/weeks-4/celcius.php">celcius.php</a></li>
+                <li><a href="weeks/week-4/form-get.php">form-get.php</a></li>
+                <li><a href="weeks/week-4/form1.php">form1.php</a></li>
+                <li><a href="weeks/week-4/form2.php">form2.php</a></li>
+                <li><a href="weeks/week-4/form3.php">form3.php</a></li>
+                <li><a href="weeks/week-4/form-arithmetic.php">form-arithmetic.php</a></li>
+                <li><a href="weeks/week-4/celcius.php">celcius.php</a></li>
             </ul>
 
             <h3>Week 5</h3>
             <ul>
-                <li><a href="weeks/weeks-5/currency1.php">currency1.php</a></li>
-                <li><a href="weeks/weeks-5/currency2.php">currency2.php</a></li>
-                <li><a href="weeks/weeks-5/currency3.php">currency3.php</a></li>
-                <li><a href="weeks/weeks-5/currency4.php">currency4.php</a></li>
-                <li><a href="weeks/weeks-5/null.php">null.php</a></li>
+                <li><a href="weeks/week-5/currency1.php">currency1.php</a></li>
+                <li><a href="weeks/week-5/currency2.php">currency2.php</a></li>
+                <li><a href="weeks/week-5/currency3.php">currency3.php</a></li>
+                <li><a href="weeks/week-5/currency4.php">currency4.php</a></li>
+                <li><a href="weeks/week-5/null.php">null.php</a></li>
             </ul>
 
             <h3>Week 6</h3>
             <ul>
-                <li><a href="weeks/weeks-6/form1.php">form1.php</a></li>
-                <li><a href="weeks/weeks-6/functions.php">functions.php</a></li>
-                <li><a href="weeks/weeks-6/implode.php">implode.php</a></li>
+                <li><a href="weeks/week-6/form1.php">form1.php</a></li>
+                <li><a href="weeks/week-6/functions.php">functions.php</a></li>
+                <li><a href="weeks/week-6/implode.php">implode.php</a></li>
             </ul>
 
             <h3>Week 7</h3>
             <ul>
-                <li><a href="weeks/weeks-7/random.php">random.php</a></li>
-                <li><a href="weeks/weeks-7/strings.php">strings.php</a></li>
-                <li><a href="weeks/weeks-7/pictures.php">pictures.php</a></li>
+                <li><a href="weeks/week-7/random.php">random.php</a></li>
+                <li><a href="weeks/week-7/strings.php">strings.php</a></li>
+                <li><a href="weeks/week-7/pictures.php">pictures.php</a></li>
             </ul>
 
             <h3>Week 8</h3>
             <ul>
-                <li><a href="weeks/weeks-8/people.php">people.php</a></li>
+                <li><a href="weeks/week-8/people.php">people.php</a></li>
             </ul>
 
         </div>

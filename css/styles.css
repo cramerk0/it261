@@ -69,6 +69,8 @@ aside li {
     color: var(--luma-accent);
 }
 
+/* FOOTER */
+
 footer {
     clear: both;
     font-size: .9em;
@@ -204,3 +206,4 @@ img {
 main img {
     border: 1px solid black;
 }
+
