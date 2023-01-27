@@ -48,7 +48,7 @@
                 <nav id="primary-nav">           
                     <ul>
                         <li><a href="">Switch</a></li>
-                        <li><a href="">Troubleshoot</a></li>
+                        <li><a href="adder.php">Troubleshoot</a></li>
                         <li><a href="">Caclulator</a></li>
                         <li><a href="">Email</a></li>
                         <li><a href="">Database</a></li>
@@ -107,7 +107,7 @@
                 <li><a href="weeks/week-4/form1.php">form1.php</a></li>
                 <li><a href="weeks/week-4/form2.php">form2.php</a></li>
                 <li><a href="weeks/week-4/form3.php">form3.php</a></li>
-                <li><a href="weeks/week-4/form-arithmetic.php">form-arithmetic.php</a></li>
+                <li><a href="weeks/week-4/arithmetic-form.php">arithmetic-form.php</a></li>
                 <li><a href="weeks/week-4/celcius.php">celcius.php</a></li>
             </ul>
 
