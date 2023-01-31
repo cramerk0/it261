@@ -25,7 +25,7 @@ a {
   transition: all 0.3s;
 }
 
-a:hover {
+a:hover, ul a:hover {
     color: var(--link-hover);
     display: block;
 }
@@ -71,6 +71,7 @@ aside {
     background: var(--color);
     padding: 20px;
     margin-bottom: 20px;
+    overflow: hidden;
 }
 
 /* FOOTER */
