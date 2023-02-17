@@ -74,6 +74,7 @@ aside {
     overflow: hidden;
 }
 
+
 /* FOOTER */
 
 footer {
@@ -97,6 +98,10 @@ footer li {
 
 
 /* PRIMARY NAVIGATION */
+
+.current {
+    color: #94D3C0;
+}
 
 .primary-nav {
     text-decoration: none;

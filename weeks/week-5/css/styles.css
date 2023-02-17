@@ -1,0 +1,105 @@
+/* styles for currency form */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #e0e1dd;
+
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+fieldset {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type=text],
+input[type=email],
+input[type=number] {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+input[type=submit] {
+    margin-bottom: 10px;
+}
+
+select {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form ul {
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+
+form li {
+    margin-bottom: 5px;
+}
+
+.box {
+    width: 400px;
+    padding: 10px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+#good {
+    width: 400px;
+    height: 500px;
+    padding: 10px;
+    margin: 10px auto;
+    background: #89a2c4;
+    
+}
+
+#sad {
+    width: 400px;
+    height: 500px;
+    padding: 10px;
+    margin: 10px auto;
+    background: #415A77;
+    color: white;
+}
+
+.error {
+    color: red;
+    font-style: italic;
+    text-align: center;
+}
+
+/* FOOTER */
+
+footer {
+    clear: both;
+    font-size: .9em;
+    height: 50px;
+    line-height: 50px;
+}
+
+footer ul {
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+footer li {
+    list-style-type: none;
+    margin-right: 20px;
+}

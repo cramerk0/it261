@@ -1,6 +1,5 @@
 <?php
-// isset function - has something been set
-
+include('config.php');
 include('./includes/header.php');
 
 if(isset($_GET['today'])) {
