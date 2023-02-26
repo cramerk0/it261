@@ -41,8 +41,12 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     if(empty($_POST['phone'])) {
         $phone_err = 'Please enter your phone number.';
-    } else {
-        $phone = $_POST['phone'];
+    } elseif(array_key_exists('phone', $_POST)) {
+        if(!preg_match('/^[0-9]{3}-[0-9]{3}-[0-9]{4}$/', $_POST['phone'])) {
+            $phone_err = 'Invalid format!';
+        } else {
+            $phone = $_POST['phone'];
+        } 
     }
 
     if(empty($_POST['gender'])) {
@@ -93,7 +97,8 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
             $_POST['comments'],
             $_POST['privacy'])) {
 
-        $to = 'kendall.cramer@seattlecolleges.edu'; // 'szemo@mystudentswa.com';
+        $to = //'kendall.cramer@seattlecolleges.edu';  
+        'szemo@mystudentswa.com';
         $subject = 'Test Email on ' .date('m/d/y, h i: A');
         $body = '
         First Name : '.$first_name.' '.PHP_EOL.'
