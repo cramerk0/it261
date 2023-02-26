@@ -9,7 +9,7 @@ include('./includes/header.php');
         <!-- <h1>Welcome to the Contact Page</h1> -->
 
         <?php
-        include('./includes/form.php');
+        include('includes/form.php');
         ?>
 
     </main>

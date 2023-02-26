@@ -10,7 +10,7 @@ include('./includes/header.php');
         </div>
 
         <main>
-            <div id="info">
+            <div class="info">
                 <h1>Web Authoring II</h1>
                 <h2>Starting off with bare minimum knowledge let's gooo</h2>
                 <p>
@@ -21,20 +21,41 @@ include('./includes/header.php');
                 <p>
                     Etiam dolor lectus, sagittis non dui nec, feugiat luctus purus. Nullam nunc elit, convallis sit amet sem pretium, lobortis sodales tellus. In semper elementum ultricies. Donec quis diam hendrerit, ultricies est vel, varius mi. In hac habitasse platea dictumst. Nam in felis non turpis interdum dignissim sed eget leo. Vestibulum ultricies tempus blandit. Praesent bibendum leo non eleifend laoreet.
                 </p>
-
-            <!-- end info -->
             </div>
         </main>
 
         <aside>
-            <div id="other-stuff">
+            <div class="other-stuff">
                 <h3>Headline 3</h3>
                 <p>
                     Etiam dolor lectus, sagittis non dui nec, feugiat luctus purus. Nullam nunc elit, convallis sit amet sem pretium, lobortis sodales tellus. In semper elementum ultricies. Donec quis diam hendrerit, ultricies est vel, varius mi. In hac habitasse platea dictumst. Nam in felis non turpis interdum dignissim sed eget leo. Vestibulum ultricies tempus blandit. Praesent bibendum leo non eleifend laoreet.
                 </p>
-                <!-- end other-stuff -->
             </div>
         </aside>
+
+        <div id="rand-img">
+                <div class="stuff">
+                <h2>Complimentary Owl Photo</h2>
+                <?php 
+                    $owls[0] = 'owl1';
+                    $owls[1] = 'owl2';
+                    $owls[2] = 'owl3';
+                    $owls[3] = 'owl4';
+                    $owls[4] = 'owl5';
+                    
+                    function owl($owls){
+                        $my_return = '';
+                        $i = rand(0, 4);
+                        $image = ''.$owls[$i].'.png';
+                        $my_return = '<img src="images/owls/'.$image.'" alt="'.$owls[$i].'.png">';
+                    
+                        return $my_return;
+                    }
+                    
+                    echo owl($owls);
+                ;?>
+                </div>
+        </div>
 
     <!-- end wrapper -->
     </div>
