@@ -74,6 +74,15 @@ aside {
     overflow: hidden;
 }
 
+#rand-img {
+    background: var(--color);
+    width: 41%;
+    height: 50%;
+    float: right;
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 20px;
+}
+
 
 /* FOOTER */
 
@@ -122,12 +131,7 @@ footer li {
 
 /* BEAUTIFIERS */
 
-#info {
-    background: rgba(178, 202, 204, .3);
-    padding: 20px 20px 5px 20px;
-}
-
-#other-stuff {
+.info, .other-stuff, .stuff {
     background: rgba(178, 202, 204, .3);
     padding: 20px 20px 5px 20px;
 }
@@ -185,3 +189,4 @@ header img {
     /* width: 50%; */
     margin-bottom: 20px;
 }
+
