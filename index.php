@@ -1,64 +1,93 @@
-<?php
-include('config.php');
-include('./includes/header.php');
-?>
+<?php include('./includes/header-sidebar.php')?>
 
-    <div id="wrapper">
-
-        <div id="art"> 
-            <img src="images/Mari art flower.png" alt="Mari">
-        </div>
-
-        <main>
-            <div class="info">
-                <h1>Web Authoring II</h1>
-                <h2>Starting off with bare minimum knowledge let's gooo</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra, turpis nec elementum vehicula, eros elit ornare nisl, sed auctor lacus odio nec sem. Quisque pretium sollicitudin vehicula. Duis tempor pellentesque lectus, in viverra odio. Aliquam convallis dapibus eros, sit amet aliquam nunc tempor eget. Integer volutpat consequat lacus in posuere. Vestibulum libero tellus, convallis et euismod sed, maximus ac metus. Nunc ac ullamcorper tellus, porta venenatis ligula. Curabitur eleifend, nibh a elementum ornare, enim massa posuere ex, tempor pulvinar enim elit et nunc. Morbi fringilla quam dolor, in placerat mi lobortis in. Aliquam vitae massa eu purus cursus auctor ut vel massa. Sed quis quam nibh. Pellentesque odio nisl, rhoncus eget turpis a, dignissim placerat orci. Praesent at sodales mauris. Suspendisse potenti.
-                </p>
-
-                <h2>Another Headline</h2>
-                <p>
-                    Etiam dolor lectus, sagittis non dui nec, feugiat luctus purus. Nullam nunc elit, convallis sit amet sem pretium, lobortis sodales tellus. In semper elementum ultricies. Donec quis diam hendrerit, ultricies est vel, varius mi. In hac habitasse platea dictumst. Nam in felis non turpis interdum dignissim sed eget leo. Vestibulum ultricies tempus blandit. Praesent bibendum leo non eleifend laoreet.
-                </p>
-            </div>
-        </main>
-
-        <aside>
-            <div class="other-stuff">
-                <h3>Headline 3</h3>
-                <p>
-                    Etiam dolor lectus, sagittis non dui nec, feugiat luctus purus. Nullam nunc elit, convallis sit amet sem pretium, lobortis sodales tellus. In semper elementum ultricies. Donec quis diam hendrerit, ultricies est vel, varius mi. In hac habitasse platea dictumst. Nam in felis non turpis interdum dignissim sed eget leo. Vestibulum ultricies tempus blandit. Praesent bibendum leo non eleifend laoreet.
-                </p>
-            </div>
-        </aside>
-
-        <div id="rand-img">
-                <div class="stuff">
-                <h2>Complimentary Owl Photo</h2>
-                <?php 
-                    $owls[0] = 'owl1';
-                    $owls[1] = 'owl2';
-                    $owls[2] = 'owl3';
-                    $owls[3] = 'owl4';
-                    $owls[4] = 'owl5';
-                    
-                    function owl($owls){
-                        $my_return = '';
-                        $i = rand(0, 4);
-                        $image = ''.$owls[$i].'.png';
-                        $my_return = '<img src="images/owls/'.$image.'" alt="'.$owls[$i].'.png">';
-                    
-                        return $my_return;
-                    }
-                    
-                    echo owl($owls);
-                ;?>
-                </div>
-        </div>
-
-    <!-- end wrapper -->
+<div id="wrapper">
+<main>
+    <h2>IT 261 Winter Quarter</h2>
+    <img id="self" src="images/Snapchat.png" alt="Picture I found">
+    
+    <div id="description">
+        <p>
+            Hi! I'm Xiaoyan, pronounced Shao-yan. I'm an aspiring 
+            musician, producer, and web developer (maybe). In my free time, I 
+            like to play video games or make music.
+            <br>I also love to cook. I'm always trying to learn new dishes to make 
+            and share with my roommates and family.  
+        </p>
+    <!-- end description -->
     </div>
 
-<?php
-include('./includes/footer.php');
+    <img id="MAMP" src="images/MAMP.png" alt="MAMP thingy">
+    <br>
+    <img id="error" src="images/MAMP-error.png" alt="MAMP error">
+</main>
+
+
+<aside>
+    <div id="class-stuff">
+        <h2>Weekly Class Exercises</h2>
+        
+        <h3>Week 2</h3>
+        <ul>
+            <li><a href="weeks/week-2/var.php">var.php</a></li>
+            <li><a href="weeks/week-2/var2.php">var2.php</a></li>
+            <li><a href="weeks/week-2/currency-logic.php">currency-logic.php</a></li>
+            <li><a href="weeks/week-2/currency.php">currency.php</a></li>
+            <li><a href="weeks/week-2/heredoc.php">heredoc.php</a></li>
+        </ul>
+
+        <h3>Week 3</h3>
+        <ul>
+            <li><a href="weeks/week-3/if.php">if.php</a></li>
+            <li><a href="weeks/week-3/date.php">date.php</a></li>
+            <li><a href="weeks/week-3/for-each.php">for-each.php</a></li>
+            <li><a href="weeks/week-3/forloop.php">forloop.php</a></li>
+            <li><a href="weeks/week-3/switch.php">switch.php</a></li>
+        </ul>
+
+        <h3>Week 4</h3>
+        <ul>
+            <li><a href="weeks/week-4/form-get.php">form-get.php</a></li>
+            <li><a href="weeks/week-4/form1.php">form1.php</a></li>
+            <li><a href="weeks/week-4/form2.php">form2.php</a></li>
+            <li><a href="weeks/week-4/form3.php">form3.php</a></li>
+            <li><a href="weeks/week-4/arithmetic-form.php">arithmetic-form.php</a></li>
+            <li><a href="weeks/week-4/celcius.php">celcius.php</a></li>
+        </ul>
+
+        <h3>Week 5</h3>
+        <ul>
+            <li><a href="weeks/week-5/currency1.php">currency1.php</a></li>
+            <li><a href="weeks/week-5/currency2.php">currency2.php</a></li>
+            <li><a href="weeks/week-5/currency3.php">currency3.php</a></li>
+            <li><a href="weeks/week-5/currency4.php">currency4.php</a></li>
+            <li><a href="weeks/week-5/null.php">null.php</a></li>
+        </ul>
+
+        <h3>Week 6</h3>
+        <ul>
+            <li><a href="weeks/week-6/form.php">form.php</a></li>
+            <li><a href="weeks/week-6/functions.php">functions.php</a></li>
+            <li><a href="weeks/week-6/implode.php">implode.php</a></li>
+        </ul>
+
+        <h3>Week 7</h3>
+        <ul>
+            <li><a href="weeks/week-7/form2(3).php">form2(3).php</a></li>
+            <li><a href="weeks/week-7/strings.php">strings.php</a></li>
+            <li><a href="weeks/week-7/pictures.php">pictures.php</a></li>
+            <li><a href="weeks/week-7/rand.php">rand.php</a></li>
+        </ul>
+
+        <h3>Week 8</h3>
+        <ul>
+            <li><a href="weeks/week-8/people.php">people.php</a></li>
+        </ul>
+
+    </div>
+</aside>
+
+<!-- end wrapper -->
+</div>
+
+
+<?php include('./includes/footer.php')?>
