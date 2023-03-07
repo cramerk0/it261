@@ -44,7 +44,7 @@ include('./includes/header.php');
         echo '
         <ul class="film">
             <li><b>About the Film: </b><br><p>'.$details.'</p></li>
-            <li><b>My Ideas: </b><br><p>'.$opinion.'</p></li>
+            <li><b>Opinion and (slight) Analysis: </b><br><p>'.$opinion.'</p></li>
         </ul>
         ';
         ?>
